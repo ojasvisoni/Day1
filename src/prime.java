@@ -19,6 +19,7 @@ public class prime {
                 System.out.println("Prime");
             } else{
                 System.out.println("Not Prime");
+                System.out.println("Not Prime");
             }
         }
     }
