@@ -14,7 +14,7 @@ public class primestillN {
                 }
             }
             if(count == 0){
-                System.out.println(i);;
+                System.out.println(i);
             }
         }
     }
