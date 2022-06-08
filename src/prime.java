@@ -8,17 +8,16 @@ public class prime {
 
         for(int i=0; i < t; i++){
             int n = scn.nextInt();
-            int count =0;
-
-            for(int div=1; div <= n; div++){
-                if(n % div == 0){
-                    count++;
+            int div = 2;
+            while(div <= n/2){
+                if(n% div == 0){
+                    break;
                 }
+                div++;
             }
-            if(count == 2 || count == 1){
+            if(div > n/2){
                 System.out.println("Prime");
             } else{
-                System.out.println("Not Prime");
                 System.out.println("Not Prime");
             }
         }
