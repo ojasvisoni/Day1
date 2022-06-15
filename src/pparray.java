@@ -8,6 +8,7 @@ public class pparray {
         for(int i=0; i<length; i++ ) {
             arr[i] = scn.nextInt();
         }
+        System.out.println(Arrays.toString(arr));
         printpairs(arr);
     }
 
