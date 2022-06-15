@@ -5,6 +5,9 @@ public class spofarray {
         Scanner scn = new Scanner(System.in);
         int length = scn.nextInt();
         int[] arr = new int[length];
+        for(int i=0; i<length; i++){
+            arr[i] = scn.nextInt();
+        }
         sumproarr(arr);
     }
 
