@@ -5,7 +5,9 @@ public class pparray {
         Scanner scn = new Scanner(System.in);
         int length = scn.nextInt();
         int[] arr = new int[length];
-        System.out.println(arr[arr.length]);
+        for(int i=0; i<length; i++ ) {
+            arr[i] = scn.nextInt();
+        }
         printpairs(arr);
     }
 
